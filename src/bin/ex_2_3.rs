@@ -18,11 +18,9 @@
 
 use std::fs::File;
 use serde::{Deserialize, Serialize};
-use rand::Rng;
 use rand::distributions::{Distribution, Uniform};
 use std::io;
 use std::io::{BufReader, BufWriter, Seek, SeekFrom, Write};
-use std::sync::atomic::Ordering;
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 struct Move {

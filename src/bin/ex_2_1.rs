@@ -19,7 +19,7 @@
 use std::fs::File;
 use serde::{Serialize, Deserialize};
 use std::io;
-use std::io::{BufRead, BufReader, Write};
+use std::io::{BufReader, Write};
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Move {
